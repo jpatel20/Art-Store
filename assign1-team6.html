@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+		<meta name="author" content="Jay Patel 500634704, Neelkanth Patel 500645566, Julian Sengboupha 500581133">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="assign1-team6.css">
+		<title>Art Gallery</title>
+	</style>
+	</head>
+	
+
+	<body>
+	<!-- Nav bar -->
+	<nav id="nav" class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<div id="" class="row">
+				<div id="top-left" class="col-lg-12">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>                        
+						</button>
+						<a class="navbar-brand" href="#">Art Gallery</a>
+					</div>
+					<div class="collapse navbar-collapse" id="myNavbar">
+						<ul class="nav navbar-nav">
+							<li class ="active"><a href="#">Home</a></li>
+							<li><a href="about.html">About us</a></li>
+							<li><a href="blogs.html">Blogs</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</nav>	
+		<div class="container-fluid">
+			<div id="top" class="row">
+				<div id="top-left" class="col-lg-2">
+					<div class="dropdown">
+						<button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Art Works
+						<span class="caret"></span></button>
+						<ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+							<li role="presentation"><a role="menuitem" tabindex="-1" href="#" onclick="load_home()">Home</a></li>
+							<li role="presentation" class="divider"></li>
+							<li role="presentation"><a role="menuitem" tabindex="-1" href="#" onclick="load_mona()">Mona Lisa</a></li>
+							<li role="presentation"><a role="menuitem" tabindex="-1" href="#" onclick="load_starry()">Starry Night</a></li>
+							<li role="presentation"><a role="menuitem" tabindex="-1" href="#" onclick="load_guernica()">Guernica</a></li>							
+							<li role="presentation"><a role="menuitem" tabindex="-1" href="#" onclick="load_arnolfini()">The Arnolfini Portrait</a></li>
+							<li role="presentation"><a role="menuitem" tabindex="-1" href="#" onclick="load_girl()">Girl with a Pearl Earring</a></li>
+						</ul>				
+					</div>
+				</div>
+				<div id="top-middle" class="col-lg-8">
+					<h1><b>Art Gallery</b></h1>
+				</div>
+				<div id="top-right" class="col-lg-2">
+					<div class="dropdown">
+						<button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Artists
+						<span class="caret"></span></button>
+						<ul class="dropdown-menu" role="menu" aria-labelledby="menu2">
+							<li role="presentation"><a role="menuitem" tabindex="-1" href="#" onclick="load_home()">Home</a></li>
+							<li role="presentation" class="divider"></li>
+							<li role="presentation"><a role="menuitem" tabindex="-1" onclick="load_leo()">Leonardo da Vinci</a></li>
+							<li role="presentation"><a role="menuitem" tabindex="-1" onclick="load_gough()">Vincent van Gough</a></li>
+							<li role="presentation"><a role="menuitem" tabindex="-1" onclick="load_picasso()">Pablo Picasso</a></li>
+							<li role="presentation"><a role="menuitem" tabindex="-1" onclick="load_eyck()">Jan van Eyck</a></li>
+							<li role="presentation"><a role="menuitem" tabindex="-1" onclick="load_vermeer()">Johannes Vermeer</a></li>
+						</ul>				
+					</div>
+				</div>
+			</div>
+			<div id="main" class="row">
+				<iframe id="frame1" src="home.html"></iframe>
+			</div>
+		</div>		
+	</body>
+	
+<script>
+	function load_home() {
+		document.getElementById("frame1").src='home.html';
+}
+	function load_mona() {
+		document.getElementById("frame1").src='mona.html';
+}
+	function load_starry() {
+		document.getElementById("frame1").src='starry.html';
+}
+	function load_guernica() {
+		document.getElementById("frame1").src='guernica.html';
+}
+	function load_arnolfini() {
+		document.getElementById("frame1").src='arno.html';
+}
+	function load_girl() {
+		document.getElementById("frame1").src='girl.html';
+}
+	function load_leo() {
+		document.getElementById("frame1").src='leo.html';
+}
+	function load_gough() {
+		document.getElementById("frame1").src='vincent.html';
+}
+	function load_picasso() {
+		document.getElementById("frame1").src='picasso.html';
+}	
+	function load_eyck() {
+		document.getElementById("frame1").src='jan.html';
+}
+	function load_vermeer() {
+		document.getElementById("frame1").src='johannes.html';
+}
+</script>
+</html>

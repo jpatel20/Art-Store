@@ -1,0 +1,47 @@
+body,html,.container-fluid,#main{
+	height: 100%;
+	font-family: 'Supermercado One', cursive;
+	background-image: url("images/background.jpg");
+	background-size: cover;
+	
+}
+
+#top{
+	height: 10%;
+	display: block;
+	padding-top: 4%;
+	padding-bottom: 10%;
+}
+
+#top-middle{
+	text-align: center;
+}
+#top-right{
+	text-align: right;
+}
+
+#frame1{	
+	height: 100%;
+	width: 100%;
+}
+
+td { 
+    height: 600px;
+    width: 600px;
+	font-size: 20pt;
+}
+
+.home_table{
+	height: 50%;
+	width: 50%;	
+	font-size: 20pt;
+	border: solid black 1px;
+}
+
+#home{
+	padding: 5%;
+}
+
+th{
+	text-align: center;
+}
